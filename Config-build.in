@@ -194,7 +194,7 @@ menu "Global build settings"
 	choice
 		prompt "Preferred standard C++ library"
 		default USE_LIBSTDCXX if USE_GLIBC
-		default USE_UCLIBCXX
+		default USE_LIBSTDCXX
 		help
 		  Select the preferred standard C++ library for all packages that support this.
 
